@@ -2,7 +2,7 @@ window.alert('こんちゃ。世界。');
 
 console.log('こんちゃ。世界。');
 
-documen.getElementById('choice').textContent = new Date();
+document.getElementById('choice').textContent = new Date();
 
 var result = window.confirm('準備OK?');
 //結果を表示
