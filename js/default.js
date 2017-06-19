@@ -4,10 +4,10 @@ console.log('こんちゃ。世界。');
 
 document.getElementById('choice').textContent = new Date();
 
-var result = window.confirm('準備OK?');
-//結果を表示
 document.getElementById('choice').textContent = result;
 
+var result = window.confirm('準備OK?');
+//結果を表示
 if(result){
  document.getElementById('choice').textContent = 'OKが押されました';
 }else{
