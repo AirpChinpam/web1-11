@@ -7,15 +7,18 @@ document.getElementById('choice').textContent = result;
 
 var result = window.confirm('準備OK?');
 //結果を表示
-int a;
-a=0;
 
-while(a=var number)result){
+if(result){
  document.getElementById('choice').textContent = 'OKが押されました';
 }else{
  document.getElementById('choice').textContent = 'キャンセルが押されました';
 }
-
+int i;
+i=0;
+while(a=[i]!=var number){
+ printf("%dvar number/n",a=[i]);
+ i++;
+}
 var number = Math.floor(Math.random()*3);
 var answer = parseInt(window.prompt('数あてゲーム。0~2の数字を入力してください!'));
 
