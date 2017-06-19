@@ -15,19 +15,17 @@ if(result){
 }
 
 var number = Math.floor(Math.random()*3);
-var answer = parseInt(window.prompt('数あてゲーム。0~2の数字を入力してください!'));
 
-var message;
+var message='';
 while(1){
-printf("==>");
-scanf("%d",&number);
-if(number==answer){
-printf("正解です。\n");
-break;
-}else{
-printf("不正解です。\n");
-}
- message = '0~3の数字を入力して';
+  var answer = parseInt(window.prompt('数あてゲーム。0~2の数字を入力してください!'));
+  if(number==answer){
+    window.alert('正解です。');
+    break;
+  }else{
+    window.alert('不正解です。');
+  }
+  message = '0~2の数字を入力して';
 }
 
 document.getElementById('choice').textContent = message;
